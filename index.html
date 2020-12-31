@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function calculator V2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>FUNCTION CALCULATOR &nbspV2</header>
+    <div class="main">
+        <div style="margin-top: 6rem;" class="calculator">
+            <form method="GET" id="form-main">
+                <input type="valor" autocomplete="off" name="value" inputmode="numeric" id="x" placeholder="digite o valor...">
+                <br>
+                <select class="select"name="select" id="type-mode">
+                    <option value="" selected>select mode</option>
+                    <option value="f">função F</option>
+                    <option value="g">função G</option>
+                    <option value="fog">função F de G</option>
+                    <option value="gof">função G de F</option>
+                </select><br>
+                <input type="submit" class="go" value="calcular!""></input>
+            </form>
+
+            
+        </div>
+
+        <div class="result">
+
+            <br><br>
+            <h1 id="resultado1">o resultado é: </h1>
+        </div>
+    </div>
+    <script src="./bundle.js"></script>
+</body>
+</html>
